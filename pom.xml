@@ -16,6 +16,11 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	<properties>
+    <sonar.coverage.jacoco.xmlReportPaths>
+        ../app-project-name/target/jacoco-report/jacoco.xml
+    </sonar.coverage.jacoco.xmlReportPaths>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
